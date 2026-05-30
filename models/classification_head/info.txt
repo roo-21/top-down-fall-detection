@@ -1,0 +1,16 @@
+- the model is int8 quantized
+- applied QAT on the whole dataset (779 clips) on an already trained best model from 5-fold Cross validation
+- model performance during cross validation (80% training data + 20% test): 
+	- accuracy: 	97.42%
+	- precision: 	93.94%	
+	- recall: 	93.94%	
+	- f1 score: 	93.94%
+- model performance after quantization on 100% of dataset:
+	- accuracy: 	98.59%
+	- precision: 	96.99%	
+	- recall: 	96.41%	
+	- f1 score: 	96.70%
+	- TP:		161
+	- FP:		5
+	- FN: 		6
+	- TN:		607

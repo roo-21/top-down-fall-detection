@@ -1,0 +1,15 @@
+.vscode/
+.tmp.driveupload/
+__pycache__/
+desktop.ini
+kernel.errors.txt
+mediapipe_top_down.code-workspace
+models/**
+!models/classification_head/
+!models/classification_head/**
+outputs/**
+helpers/classifier.py
+full_workflow.ipynb
+person_detector.ipynb
+person_detector_vid.ipynb
+test_/*
